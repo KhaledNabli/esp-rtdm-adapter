@@ -1,0 +1,1930 @@
+2015-04-16 22:48:16 [main] com.sas.coeci.esp.DSAdapter.main()
+INFO: Start Logging
+2015-04-16 22:48:16 [main] com.sas.coeci.esp.DSAdapter.main()
+INFO: Check ESP Url: dfESP://localhost:55555/project/contQuery/twitterEvent?get=schema
+2015-04-16 22:48:16 [main] com.sas.coeci.esp.DSAdapter.main()
+INFO: ESP Url is valid and has the schema tw_ID*:int64,tw_name:string,tw_tweet:string,tw_location:string,tw_followers:int64
+2015-04-16 22:48:16 [main] com.sas.coeci.esp.DSAdapter.main()
+INFO: Start subscribing to ESP Window
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795783757090816
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = RicoStuijt
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = @arjenhettinga: Big data verandert online marketing voorgoed http://t.co/a29J2NBTyv #bigdata #marketing
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 51
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795776551124992
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = jcaparula
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Great use cases on geo-spatial analytics. #BeBusinessIntelligent https://t.co/YBMoVEFP7T
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = ÜT: 43.01076,-89.509011
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 77
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795673786613762
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = _DataTsunami
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Twitter Set To Strike IBM-Style Analytics Deal With NTT Data - TechCrunch http://t.co/kPYiAEdkgM #bigdata #bigdata via @AnalyticsWeek
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 847
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795571336568832
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Bfa_emploi
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Moodys analytics sas Job Moodys Analytics SAS Insurance Product Consultant Master degree or higher... http://t.co/dvySeWXgCl BFA Stage 36
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1558
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795535257010176
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = EntrepreNOWer
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = TSheets bounced back by embracing analytics http://t.co/AHS8DslXJy
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Cherry Hill, NJ
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 738
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795532920782850
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ekem23
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @AFCEACyberExpo: .@Datawatch provides the only platform for visual analytics to leverage data. See them in booth 5016 #AFCEACyber http:/…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = North Shore - Boston
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 140
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795531750543360
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = EntreprenrsEdge
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = TSheets bounced back by embracing analytics http://t.co/Cs8a9XG6sz
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = United States
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 6834
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795524297273344
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = TheMadScientst
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = TSheets bounced back by embracing analytics http://t.co/u8C99IGxJB
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = A dark, underground laboratory
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 4196
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795502298341376
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AetnaNews
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Aetna Story 2015: Using evidence-based analytics to help patients get the right care at the right time. http://t.co/UbhFVIPS4y
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Hartford, CT and Global
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 176
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795441422213120
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = aciousss
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = ????????????????Adobe Analytics??????????????? http://t.co/iPAI26T5mS #photography #arts
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Galaxy
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 3
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795434593865728
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = latest_ooyuz
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = NBA : Explore more news and get analytics http://t.co/3Pu84F00hW
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1313
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795423327817728
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = InfographicsIts
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @infogram: Do you love #analytics? Track the performance of your infographics. Login to #Infogram to see http://t.co/J3cn4wMGoz http://t…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 299
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795405183352832
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = B2EDirect
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Marketing analytics should be answering a business question if not it's just cool stuff. #bigdata #marketinganalytics #analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Des Moines, Iowa
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 870
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795349432717312
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = WeejeeMedia
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/954UzWmkQJ
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Chapel Hill / New York
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 68407
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795328624730112
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = BentoboxLDN
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs - In the early days, social was considered a novelty. So... http://t.co/9HL9D0nX18
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = London, United Kingdom
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 338
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795319887994880
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Ekoonibajeooo
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @CINweke: You 've mentioned Shekau 5,055 times today alone _and_ U still wonder why he's on #TIME100? #analytics #BigData
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Lagos, Nigeria
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1348
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795535995330560
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Auskunftde
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @semrush: What The Hell Do I Need #SocialMedia #Analytics For? by @ronsela: http://t.co/j5Og1MbER7 http://t.co/7XHYDsG5Ve
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Köln
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 203
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795222471155712
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = SMToolsGo
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs - In the early days, social was considered a novelty. So... http://t.co/wEkW5RV5TH
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = New York
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1587
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795342537228289
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = fbSays
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs - In the early days, social was considered a novelty. So... http://t.co/pHKZgei7UW
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Estonia, Tallinn
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 225
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795194390216705
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Emploi_Banque
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Moodys analytics sas Emploi Moody s Analytics SAS (Grenoble) Ingenieur developpement Software En... http://t.co/3iZ5mZ3i3B BFA job 68
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2050
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795177445253120
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = FacebookAdverts
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = http://t.co/GAi2S5Xbsu How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/ZOp6sEHLHu
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Manchester
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 33
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795053251948545
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = HCITExpert
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Healthcare Analytics Platform Arcadia Health Gets Raises $13M http://t.co/pdNMlkqDiX #HIMSS15 #HITSMIND #HITSMIND
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = India
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 4914
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795026458697729
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = julia_lanskaya
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @medinskiy_vr: ??? ???????? ?????????? ??????? ?44 
+http://t.co/XYmTcZIpB3 
+??? ??????? ???????))
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = ????????? ????????, ??????
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 246
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794970112307201
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = sheetal_dolas
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @gvanlandeghem: #hadoopsummit they have arrived...streaming analytics design pattern like responsive shiffling http://t.co/KKteVADV0k
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Sunnyvale, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 48
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794963283939328
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = FF_Contrarian
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Using Analytics to Draft the Best QB by @RotoDoc http://t.co/kjdIRMGl9I
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 6070
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794938407723009
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ibmwatsonbot
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Watson Analytics Presentation Cognitive Watson HRAnalytics Analytics http://t.co/fXCxcAAPI5
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 619
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794857826713600
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = LDV_VRN
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @papkovab: ??????????? ?????? ????? ?????? http://t.co/xwr0vpqAFi ????? @rianru http://t.co/nnPsqUcJ4s
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 23
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794832891547648
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = coetechplay
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Getting tweets from 60 days ago, for free with Historical Data Feature. http://t.co/P4B37FyF2m via @follow_hashtag
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = 326 Willard OSU College of  Ed
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 316
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794943411486720
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = DigitalEb
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs - In the early days, social was considered a novelty. So... http://t.co/T15l5Wi9U0
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = New York, NY
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1136
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794825627013120
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = The_Socializer_
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs - In the early days, social was considered a novelty. So... http://t.co/vyV2NrgTSh
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = España
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2131
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795057496399874
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AnalyticsWeek
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Twitter Set To Strike IBM-Style Analytics Deal With NTT Data - TechCrunch http://t.co/71SwWumtBD #bigdata #bigdata
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Boston
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1375
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794815308898304
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = StephanieShel
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/O7ScEF1VuP
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 0
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794803476824065
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = StephanieScheue
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/mjjMII2mNq
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 0
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794791623790592
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Fadri
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @gurrupurru: @Fadri ¿Conoces esto, no?  http://t.co/i8NksWIc4w
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1459
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794791355412481
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = pjgonzalo
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @jvabad: How the Industrial Internet of things Will Create an Economy of Services http://t.co/FL4sFwwsCi #IoT #M2M #analytics #bigdata
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Castro Urdiales
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1268
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794784786972672
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = anishbagri
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @EverestGroup: Why are enterprises retaining #analytics in house? Four reasons. http://t.co/7aNnpBmUyY  #GIC http://t.co/hWrJ307kGn
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = India
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 109
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794717955088384
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ushahmd
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @Wilkington: 1671 tweets sent yesterday using #prep15! @karlablack02 is in the lead for top tweeter! http://t.co/1HPFxhYaLi
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Houston, Texas
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 339
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793511895556097
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = RotoDoc
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = @FFAaroneous Here are the links in case you haven't
+http://t.co/wr6A4p6jcX 
+http://t.co/fkuiyCwDIF
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 461
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792872712982528
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = bigboardsio
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @bobehayes: Google takes on real-time #bigdata analysis with new cloud services http://t.co/L38eRrXD13 #analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Aarschot, Belgium
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1406
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794702842986498
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = CINweke
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = You 've mentioned Shekau 5,055 times today alone _and_ U still wonder why he's on #TIME100? #analytics #BigData
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = The Hague, Netherlands
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 901
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795009371140097
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Rick345
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Analytics Daily is out! http://t.co/oWkR38Sm00 Stories via @analyticbridge @Jaspersoft
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Boulder, Colorado
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 14646
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794656428847104
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = BSB_Bloggers
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How often do you check your blog analytics? Daily? Weekly? Never? Fess up!
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 19
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793929136353281
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = StuBradleyIL
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Brazil: @dandnvn tells insurers how to use #SAS #analytics to stop #insurancefraud. Example: http://t.co/X9cK2qnHvr http://t.co/AagwMgHgTJ
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 17
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794653736103936
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JoannaSapida
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Don't miss out! Here's what's coming up in #healthcare http://t.co/i6vngEJAK4 #HIT #Analytics #DigitalHealth #PatientSafety #PopHealth #EMR
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 662
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794572978851841
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = SpectrumBI
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = White Paper: Actionable Social Analytics http://t.co/2cXEYMH6Br
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 65
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793044163407873
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = WorldConsulting
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Ten Ways to Lead with Analytics By @HoardingInfo | @DevOpsSummit [#DevOps] http://t.co/AFN6rirb17 http://t.co/k5JhKDvVzA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1656
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793436041515008
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = sawamurasachi
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = What does #data #analytics need to become to meet the demands of modern IT and its users? @CantonMaurizio tells us: http://t.co/c71RH40J0e
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Silicon Valley
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 27
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794536865845249
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JessicaConnor
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social #ROI for C-Level Execs http://t.co/k62HeRspwC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = UK
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2174
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794534936600576
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = CornerstoneInc
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = The evolution of learning analytics at JetBlue, 4/23 webinar. Join us! http://t.co/FaqDIkvXM4 #webinar #HR #HCM
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Santa Monica, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 7067
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794871617576961
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = conpsweeney
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = SEO 101: How to Use Google Analytics to Analyze Organic Search Traffic by @navneetkaushal #socialmedia FYI  http://t.co/ruFXyQ8qT2
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = NYC Area
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2165
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792830048374784
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = TheEbizWizard
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @jcgonzaledu: Feeding the Monster: The Challenge of Streaming Analytics - http://t.co/VgV6ROb2q5
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Glens Falls NY
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2692
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794762255294464
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = latest_ooyuz
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = MAC : Explore more news and get analytics http://t.co/uUZE99Pv8O
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1313
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794905276715008
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = GrauDesign
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = O big data analytics fornece o que, na indústria do entretenimento, hoje vale mais que ouro: conhecer a fundo um... http://t.co/jotjxN29Fl
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Brasil
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 45
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794013077020672
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = LondonConsulta
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Analyzing the business value of analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = London, Everywhere!
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 173
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794495665319936
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AdamDSop
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @sportlogiq: #Habs Subban's d-zone passes from last night. Green=successful, red=failed #nhl #analytics http://t.co/IyiCMX0Dj0
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Halifax, Nova Scotia
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 151
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794400672768000
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = tmaduri
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs - In the early days, social was considered a novelty. So... http://t.co/TDe5GEZDnN
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Toronto, Ontario
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 84952
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795141596516356
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ThugMetricsNews
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @IBMbigdata: Metalytics translate #petabytes into profit! #BigData #Analytics http://t.co/cR2dV5cH5u http://t.co/u7igRLJU9U
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = USA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 12203
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794312143536130
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AldoBarkeeper
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = An analytics person prefers Malcolm Brown to Eddie Goldman because he was better at creating negative plays, per ESPN http://t.co/grbcjnkxZV
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Arlington Hts. IL
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 580
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794308117037056
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = semrush
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = What The Hell Do I Need #SocialMedia #Analytics For? by @ronsela: http://t.co/j5Og1MbER7 http://t.co/7XHYDsG5Ve
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Philadelphia, PA USA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 18851
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794304115662848
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = OracleAnalytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Big data innovation issue: The most important 30 people in #modern #bigdata and #analytics: http://t.co/PlYFYVGbl3 via @IEGroup
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Redwood Shores, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 23740
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794880857636865
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = conpsweeney
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = SEO 101: How to Use Google Analytics to Analyze Organic Search Traffic by @navneetkaushal #socialmedia FYI  http://t.co/GMdxMPf9VD
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = NYC Area
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2165
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794296049897473
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = TechMktgMaven
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = In #analytics, the #average isn't good enough @ibmcommerce http://t.co/k3wkSk82EL http://t.co/e2ib67rspF
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Orange County, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1214
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792571104600064
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = MathewsMichael1
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = The 5 cortex google analytics reports that ought not not think: NLW
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 45
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792660938358784
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ReveNewsJobs
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #jobs Director of Data Insights _and_ Analytics at Zillner (Shawnee Mission, KS) http://t.co/8toNAauc0z
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 105
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794291289509888
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = SEOQuakeTeam
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = What The Hell Do I Need #SocialMedia #Analytics For? by @ronsela: http://t.co/6lsGFroaAS
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Worldwide
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 4713
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794425867968512
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = SocialGurusInc
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs - In the early days, social was considered a novelty.... http://t.co/9GJqjJRA62
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Miami, Fl
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 252
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795567414861824
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Stage_Banque
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Moodys analytics sas Stage Moody s Analytics (Grenoble 6 mois) Stage en Developpement Risk Author... http://t.co/032vOmWB0A Banque 39
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1350
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795495906050048
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Puckologist
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @justinbbradford: Looks like @HockeyTech will debut HockeyTech Analytics, a proprietary system for on-ice digital tracking of players _and_ …
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Nashville, Tenn
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 859
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794532734468096
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = NoreenC_GRS
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Baltimore Boom Follows Other Major Metros | Real Capital Analytics https://t.co/dLbpHke4T6 #CRE #Multifamily @GlobalRealtySvc @JustinCookGRS
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = San Diego
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 249
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794266194935808
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JLChurchill01
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = SEO 101: Using Google Analytics to Analyze Organic Traffic via @sejournal by @navneetkaushal http://t.co/y0Q9eCYZ6O #SEO
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Greeley, Colorado
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 169
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794606646648832
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ITGRC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @Gartner_inc: Gartner Says Security Analytics May Be Key in Breach Detection http://t.co/BkKNaNdsfA #GartnerSEC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = New York
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 22117
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793136521949184
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = rrneal
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @imkialikethecar: wait, so Slack, which is group chat for work (i'm simplifying), is younger and valued higher than Domo, a fancy 5yr-ol…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Northern Hemisphere
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 97
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794264177377280
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = simplicityscout
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = What you missed in #BigData: #Connecting the #dots | SiliconANGLE http://t.co/CIZuHoRC1O #business #analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 5367
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794234506969089
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = CMtopMK
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Estudia Marketing Digital! Cursos Google AdWords, Analytics, Social Media y SEO. Infórmate! http://t.co/J8utCdzvIB http://t.co/L5HuC2VV7H
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 606
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793009472307200
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = WebScrapingUSA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #datamining With Judge Analytics, Ravel Law Starts To Judge The Judges http://t.co/xQ00lspplw #scraping #business http://t.co/X5waughtSD
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = New York _and_ San Francisco
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 62
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794217448734720
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AdveiSchoolCOL
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Descarga los PDFs de los Cursos de Google AdWords, Analytics, Community y SEO. Infórmate! http://t.co/lklo59xzSC http://t.co/UpLSMkpqgL
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = LATAM
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2807
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794053564583936
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Inventise
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Evoq 8 from DNN now gives you on-page analytics #analytics http://t.co/DzLCNsvnOv
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Bray, Co Wicklow, Ireland
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 72
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794261312704512
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = SykesWallace1
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Revolution yours bent hereabout trade association analytics: ufsaHjpa
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 21
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794198859587584
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = mawilliams224
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = New Release of HP Haven Big Data Platform Delivers Advanced Search, Analytics _and_ Speech-to-Text Capabilities | HPSW http://t.co/pYWy1v0PiC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 17
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795280599965696
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = DigitalEb
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs - In the early days, social was considered a novelty. So... http://t.co/FLWoq1orUp
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = New York, NY
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1136
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794182522798080
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = EricaStumbler
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/lKTjyKSW9Y
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 8043
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794137295593473
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = infogram
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Do you love #analytics? Track the performance of your infographics. Login to #Infogram to see http://t.co/J3cn4wMGoz http://t.co/hE0t02MWMR
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Riga
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 10523
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794091154100226
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = IeForeman
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Register today for $200 off passes to see @Groupon @eBay @GoPro talk #RetailAnalytics #CRM #Analytics at #DataRetail! http://t.co/xV3OxrRpsV
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = London
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 924
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793039142969346
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = pjgonzalo
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Turning Data Into Better Decision Making  http://t.co/8GWFXZmdyF #bigdata #analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Castro Urdiales
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1268
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794056546918401
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = GaryBaney
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @realstorygroup: Say hello to Machine Learning, the newest cloud marketplace #Cloud #analytics http://t.co/hc2l3ncYx4
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Strongsville, OH
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1205
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794043758411776
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = PaceAnalytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Sports News Now From Pace Analytics http://t.co/QUaVBMtfaW - top stories by @Mieke542, @DailyMailNews_, @OganBelema
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Norfolk and London
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 38
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794892920299520
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Lewisa2009
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/qFMbjmsNP7
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = USA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 25
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794043066232832
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = stufox
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @nzregs: #Azure Stream Analytics, now generally available, enabling real-time insights over streaming data from devices _and_ more http://t.…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Auckland, New Zealand
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 865
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793684566663169
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Peter_affiliate
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/51rtL14HgY #affiliate #twitter #SEM #advertising
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Traveling to any convention
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 286
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794578393759744
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = takin_ba
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Big data innovation issue: The most important 30 people in #modern #bigdata and #analytics: http://t.co/wvLRKFr3UP via @IEGroup
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Everywhere
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 133
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794015086092291
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = LondonConsulta
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Fluidity: The key to continuous confidence in cloud analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = London, Everywhere!
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 173
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794845134716930
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = p2pWebMobileIt
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Senior Market Data Analytics Engineer w/ #Csharp #Trading skills Chicago @p2people http://t.co/cK4nMTQXQ9
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Stevenage | Hertfordshire
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1558
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794003866275840
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Take_Action__
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/E0OQXTeqqh via @AllFacebook
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Chicago
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 75153
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794791770476544
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JaniceRoweres
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/8PxsamV34G
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792788914806784
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JRodrigoPuca
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #MSDev General Availability of Azure Stream Analytics http://t.co/wAE4C3aIRA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Salta, Argentina
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 891
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794824268066816
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = siteninja
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #socialmedia How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/c3vpHr7rJw
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Santa Barbara, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 533
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793969951252481
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = x2intelligence
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @ibmcognos: Download the #ForresterWave: Big Data Predictive Analytics Solutions http://t.co/gODOAGWW0Y #BigData #Analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = South Africa
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 36
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794000447967232
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = LondonConsulta
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = The Forrester Wave: Big Data Predictive Analytics Solutions, Q2 2015
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = London, Everywhere!
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 173
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794553647423489
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = juanpittau
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Quieres Estudiar Google AdWords, Analytics, Community Manager o SEO? Solicita Info Ahora! http://t.co/UQLKZmq5yJ http://t.co/HhXxef7qgJ
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Spain, Latin America _and_ UK
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 109032
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792653900288001
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ReveNewsJobs
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #jobs Teamleiter Web Analytics (m/w) at Harnham 1 (Düsseldorf, Nordrhein-Westfalen, Germany) http://t.co/laH8wzlxM6
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 105
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793972845314048
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = EASMG_Nairobi
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/j1T7gyfUBj
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Nairobi, Kenya
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 102
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793957821325313
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = tomcanter
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @DanRosanova: So happy for the General Availability release of #Azure #StreamAnalytics great work team! http://t.co/wvQZ9YxomX
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Seattle, WA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 114
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793399995715584
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = sukruyegit
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @googleanalytics: Use These 4 Google Analytics Tricks for Better Conversions http://t.co/vPdppo5h4T /via @SiteTuners #analytics http://t…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Istanbul
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 935
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792700582793216
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = FHUKPolitics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = We will be releasing the result of our twitter analytics at the half way mark shorty on #BBCDebate who is winning the twitter debate?
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Covent garden, London
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 147
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793849679585280
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Podshot_
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @CrushedPixel: It is here.
+http://t.co/ufhfwbYX9U
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = THS, Ohio
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 139
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793411962019840
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = latest_ooyuz
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = PUTH : Explore more news and get analytics http://t.co/Edv3SQUk9R
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1314
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794010916950016
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = 19bq91
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @IBMbigdata: Metalytics translate #petabytes into profit! #BigData #Analytics http://t.co/cR2dV5cH5u http://t.co/u7igRLJU9U
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Milky Way
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1274
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794432712904704
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = socialfluence
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = All Twitter: How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/f8AgQafeSP
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Charlottesville
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 838
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793996337516544
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = LondonConsulta
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = IBM a Leader in the big data predictive analytics market in latest Forrester Wave
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = London, Everywhere!
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 173
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792626436038656
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AdverblogJobs
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #jobs #adjobs Marketing Analytics Manager - Digital Agency at Harnham 1 (Detroit, MI) http://t.co/cM1cayygMP
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 320
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793790564937728
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = foaad19
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = SEO 101: Using Google Analytics to Analyze Organic Traffic #Digitoad http://t.co/Pt9Z41Zqi4
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Tucson Arizona
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1088
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792873413435392
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = bigboardsio
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @IBMAnalytics: An ounce of prevention is worth a pound of cure #BigData #Analytics #Healthcare http://t.co/Ic9JGEYTTa http://t.co/ORmkIv…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Aarschot, Belgium
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1406
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793046571032576
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = SERPforceca
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Google Analytics Platform Principles – Lesson 4.2 Building reports with dimensions _and_ metrics http://t.co/EZlHnKtSeZ SERPforce RSS, Search…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Vancouver, BC, V7Y 1C6
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793774098280451
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = sportdiscov
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @SHislen79: “@sportdiscov: Cricket World Cup 2015: When cricket married predictive analytics http://t.co/DC3xpTHiNr via @sharethis”
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 486
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795726701920256
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = jdruotolo
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @StuBradleyIL: Brazil: @dandnvn tells insurers how to use #SAS #analytics to stop #insurancefraud. Example: http://t.co/X9cK2qnHvr http:…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1974
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794409711378432
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ahmadimtiyaz
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social #ROI for C-Level Execs http://t.co/kZnIkfPUsW
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = New Delhi
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 288
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793761783648256
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Digitoad
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = SEO 101: Using Google Analytics to Analyze Organic Traffic #Digitoad http://t.co/XHHdiGZITU
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Tucson Arizona
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1417
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794090881294336
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = gurrupurru
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = @Fadri ¿Conoces esto, no?  http://t.co/i8NksWIc4w
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Irun, Basque Country, Spain
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 241
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793591985623040
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = BIG_DATA_News
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = IBM Expands Footprint into Healthcare Big Data Analytics: Big Blue is coming for the healthcare indus... http://t.co/WdlMTHYO0O #BigData
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 6290
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793307590840320
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = katsinsight
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Analytics improves outcomes for PinnacleHealth System http://t.co/0ZJm1ANUSW http://t.co/wyTjdSQTkr
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Melbourne, Australia
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1517
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793871661826048
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = fredlistens
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs: In the early days, social was con... http://t.co/87qT4oDG1H @SocialTimes #SEO
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Boston, MA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1387
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793646490771456
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = npm_tweets
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = analytics.js 2.8.9 https://t.co/RzVKbm3YOP The hassle-free way to integrate analytics into any web application.
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 466
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795319351169025
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Capgemini
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = .@data_everywhere says in the quest to create value from #analytics, IT is repeatedly circumvented. http://t.co/yBBGo9Pdrg #bigdata
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = In over 40 countries worldwide
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 55067
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793532904648704
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = justinbbradford
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Looks like @HockeyTech will debut HockeyTech Analytics, a proprietary system for on-ice digital tracking of players _and_ game puck, next week.
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Nashville, TN
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 3459
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794550803632128
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = amartinledesma
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #BigData and official #statistics http://t.co/R5S9weTIos vía @progcity #Analytics #DataScience
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 400
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794784569020416
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = UGoretskiy1976
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = ?????? ??? NCR APTRA Mobile Cash Management Analytics ???? ?????????? (Neil Mawston), ??? ????? ?????????????
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 118
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793486960373760
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = inalgo_de
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #deutschetelekom current trading mode is SELL at http://t.co/XdKV3RahiB, #stocks #prediction based on automated #news #analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Germany
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 88
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793861390098432
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = KA4_production
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = ??????? ????????. ???????? ?????? – ??????? ??? ??????? http://t.co/GicdCZgu7c
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Ukraine. Kiev. ???????. ????
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 396
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792916161724416
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = prilipkvv
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @TURepublic: ?????????? ?????, ????????, ???????, ???? ? ???????, ?? ????, ????? ?????????? ?????? http://t.co/tkNlAvk11i
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = ???????
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 54
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793530392281088
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Inova_Careers
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #IT #Job in #FALLSCHURCH, VA: Epic Real-Time Analytics Analyst Sr. at Inova Health System http://t.co/rdAohr1rHL #Jobs #Hiring
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Northern Virginia, USA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 15
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793366109941760
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = TheDMPL
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @bigdataconf: Do you want to know how to Secure your company #data join us at #security conference http://t.co/Csnp1yAaVU #datascience #…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 977
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794326941097986
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = CareerTips2Go
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Big Data for HR: Can Predictive Analytics Help Decrease Workplace Discrimination? http://t.co/lkbvz2poZh via @Anneloehr _and_ @TalentCulture
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Canada, International
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 6514
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792577266032640
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = karenmfurtado
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @SMAInsurance: Maturing Tech - #mobile #social #analytics #cloud collab – #insurers give us your insights in @SMAInsurance survey http:/…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Boston
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 658
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792558014324736
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = weservesocial
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @SocialTimes: How to Use Analytics to Show Social ROI to C-Level Execs | @SumAll http://t.co/WNgawkOILd http://t.co/pBBs86A5Oa
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = NYC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 2089
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792533347631105
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AdspotPDX
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs | SocialTimes - http://t.co/jjqvFtoJgR
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Portland
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 360
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793128720695296
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JustinPLambert
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/3vSjgBqsFR #socialmedia info
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Newton, NC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 3643
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792868086616064
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = x2intelligence
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @QlikView: .@gartner_inc 's Magic Quadrant for #BI and #Analytics Platforms is available now. Grab your copy here: http://t.co/Rgq21NqPE9
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = South Africa
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 35
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793351517777920
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JoinAccenture
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #WashingtonDC, DC #Marketing #Job: Digital Marketing Analytics Consultant + at Accenture http://t.co/ejJ4ppR9wv #Jobs #Hiring
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 480
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792495254986752
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Austerity_Sucks
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = @Noahpinion check your analytics or the IP of commenter and do some simple investigative work :)
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 861
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793394408861696
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = buldashova1978
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = ?????? ???????. ? ?????? ?????? ????????? - ????????? CNews Analytics. ??? ??????? ? ??? ????? ????????????
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 296
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794056874024961
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = tellusworld
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = General Availability of Azure Stream Analytics http://t.co/VCcA0sKSL5 http://t.co/o11d8GUJlt
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Worldwide
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 162
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793337316040705
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = NaomiMktg
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @GetPVD: Social media marketing and analytics for your small business http://t.co/NI9DjwdBLf
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = San Francisco, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 24351
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794504934719488
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AdamDSop
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @sportlogiq: A view of Subban's puck-possession events prior to his game-misconduct. Red=failed, green=successful #habs #analytics http:…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Halifax, Nova Scotia
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 151
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792636917571584
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AdverblogJobs
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #jobs #adjobs Marketing Analytics Manager - Global Retailer at Harnham 1 (Westbury, NY) http://t.co/n8b9m59gvY
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 320
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795742908719104
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = aldofontana
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @Gartner_inc: Gartner Says Security Analytics May Be Key in Breach Detection http://t.co/BkKNaNdsfA #GartnerSEC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = milan, Italy
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 867
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793320450760704
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = SEOMarkNews
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/241dC6p9kM
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1207
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794647155122176
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Techsolution247
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social #ROI for C-Level Execs http://t.co/blGiziTx64
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 142
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792742857211906
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = chrisscottlamb
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Seeing is Believing: IBM Kenexa Talent Insights Demo https://t.co/Jq2ryOeVOE #HR #HCM #analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1034
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795759069396992
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = LifeLock
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = ID Analytics employees volunteer at Boys and Girls Club of San Diego. #LifeLockForGood http://t.co/n75JU4kviU
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 22435
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793218038374400
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Quel_SAV
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @Emploi_Finance: Emploi Moody's Analytics (Saint-Cloud -Paris) :Client Services et Support Specia... http://t.co/kQMWESQYvB Emploi Finan…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = France
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 197
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794339834339328
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = RaulYanezAlonso
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Google analytics by Fierrilo Film http://t.co/f6WjwYqgAo
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Madrid
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 8059
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793167039836160
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = evanderburg
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @ambarmstrong: Love seeing the combo of #IBMandApple on #healthcare #mobile #analytics http://t.co/S9NlyKaoez http://t.co/09d7UCt43D
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Cleveland, OH
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 57137
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794873043628035
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = InfoTechMonitor
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = WSJ CIO: WisdomTree Names First CIO to Boost Business Analytics http://t.co/iqYnyYlw9w
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 62
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794705414066179
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Granulruk
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @semrush: What The Hell Do I Need #SocialMedia #Analytics For? by @ronsela: http://t.co/j5Og1MbER7 http://t.co/7XHYDsG5Ve
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Newcastle Durham : North East
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 261
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792522601672704
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = PatrickJDesmond
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = 2015 Business Intelligence _and_ Analytics Symposium About This year's theme will be Advanced Analytics: The Data Driven…http://t.co/nSuykt9kHJ
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Milwaukee, WI
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 64
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795008033001474
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Yeremiix3
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = (#Yeremiito21) Opinion Out, Data In: 
+As I was getting ready to take the Google Analytics Certi... http://t.co/NVcKKZ3BeV (#Yeremiito21)
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Fondo de Bikini
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 221
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793164653326337
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = BarbaraBober
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs: http://t.co/XmENlg7dRv #socialmedia
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Bristol
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 4888
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793681311830016
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = IBMbigdata
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Metalytics translate #petabytes into profit! #BigData #Analytics http://t.co/cR2dV5cH5u http://t.co/u7igRLJU9U
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 71917
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794427663114240
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = GeoSearchSEOTim
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = See this google analytics video for a Private Investigator in that uses GeoSearch #SEO! http://t.co/bxMvlCODJY  http://t.co/AtugrI1Pv7
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = USA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 431
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792995052261378
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = anil_kaul
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = My article on HR Analytics published in Trainging Industry. Nice to see the coverage we are getting in various magaz…https://t.co/NFVO79InkW
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = San Francisco, Miami, Gurgaon
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 242
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792872050229248
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = bigboardsio
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @Darren_Hari: Modern methods for Sentiment Analysis #analytics #bigdata #sentiment https://t.co/JJpZE4pYSL
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Aarschot, Belgium
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1406
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792972822630400
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = jeannienh
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @CitizensHealth: @UNH offers new MS in Analytics @unhchhs http://t.co/aYlfbYmLI5 http://t.co/VEWeqcmAqM
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = New Hampshire
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 449
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792535050362880
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = 24Seamus
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @ElderResearch: How #PredictiveAnalytics is Combating Healthcare Fraud
+Learn More @modrnhealthcr http://t.co/FCgZwonGL9
+#analytics http:…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Alexandria, VA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 101
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795400947167234
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Derkach1956
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = ???????? ?????? – ??????? ??? ??????? http://t.co/ih1Atl0fW1
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = ?.????
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 151
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794969277661184
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = johndmarketer
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Opinion Out, Data In: 
+As I was getting ready to take the Google Analytics Certification test, I did quite a b... http://t.co/7VRvR8MYAn
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Dallas, TX
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 153
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794526531248129
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = NeuvooMarPhilly
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Check out this #job: #Product #Manager - Usage _and_ Analytics at Thomson Reuters in #Philadelphia #jobs http://t.co/bVcH4gnVJi
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Philadelphia
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 247
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793653600059394
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = NuriaRojoB
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @ana_sopli: Watson Analytics y gratis en la misma frase, mola mil #BDSF @BigDataFighters
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Madrid
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 150
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792626150830082
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Krot1971A
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = ????????? X5 Retail Analytics, ???????? ????????? ????? ???????-?????????, ????????? ?????. ?? ?????? ?????????
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 841
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792880082374656
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = NewsInHR
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Workforce Analytics Turns Human Resources into Strategic Business Partner #HR Found at http://t.co/V2nZ5xz42T
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 725
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795008070848513
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = FranchiseWEBTEC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #FB How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/n2TTgzQ9U4
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Santa Barbara, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 136
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794001781719041
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = htbtr_seo
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Google Analytics?????????????? http://t.co/S8rQsH8a8Z
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1996
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795067420278787
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Brand_NewHealth
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @k8bischHRLaw: #HR's role in the digital workplace: http://t.co/hRL3EDnc8W from @Josh_Bersin #HRtech #analytics #SHRM
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = worldwide
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 1363
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793147800604672
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = chatapon2
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/s7rYBIU2Y9
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 933
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793482719993856
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JobloreDe
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Mehr #Gehalt als #Junior Analytics Consultant (m/w): BI-Beratung mit Top Weiterbildung für Mathematiker/Statistiker? http://t.co/OD3ClqmI7F
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 734
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792822624604160
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = JMC_Nash
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Want to Learn Marketing Analytics? Start With These 9 Great Resources http://t.co/SVVS8OcUEd #marketing
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Nashville TN
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 95
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792877569937408
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = midalunga
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = ?????? ????? ???????????? «???????» ????? ? ??????? http://t.co/gqqwcM6X5H
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 74
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795413643296768
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = HCITExpert
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Healthcare Analytics Platform Arcadia Health Gets Raises $13M http://t.co/pdNMlkqDiX #HIMSS15 #HITSMIND
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = India
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 4914
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793308744396801
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = Politictag
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Ossandón Si me pillan boleta ideológicamente falsa me voy mañana @mjossandon @GobiernodeChile #analytics #innovation http://t.co/C64RSgsPQU
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = chile
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 26
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792654789509121
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = ReveNewsJobs
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #jobs Teamleiter Web Analytics (m/w) at Harnham 1 (Düsseldorf, Nordrhein-Westfalen, Germany) http://t.co/4i9eG5TY4A
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 105
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792938467094529
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = father_of_cats
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @OlegFoka: ??? ???????? ????????? ? ??????-????????: 11 ??????? ???????. http://t.co/Gp1BzJg9UV
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 39
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792902291066880
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = data8work
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Amana Takaful Select GrayMatter's Insurance Analytics (IA+) - The Indian Express: The Indian ExpressAmana Taka... http://t.co/Bw6tCuPMbo
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Singapore
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 6
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795456488136705
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = uelman_dourden
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = Acabo de descubrir lo de Analytics de twitter.
+¿Solo 606 twits en 28 dias? Ains.
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 283
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588795236463333376
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = webinara
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT: http://t.co/zqywFYPNwd #webinar The evolution of learning analytics at JetBlue, 4/23 webinar. Join us! http://t.co/8vxUcIfXYu #webi…
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Worldwide
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 819
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792533657882624
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = cheryl_olsen
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = PwC helped a leading financial institution use data analytics to meet regulatory requirements. Read the case study: http://t.co/f8ac9pzdHj
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = NY, NY
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 75
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794110376423425
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = KevinPauga
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = From @MSUComArtSci on @KPIsports: Alum an Innovator in College Basketball Analytics: http://t.co/9x9kaThxUX
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = East Lansing, MI
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 6104
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794760657252352
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = siteninja
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #facebook How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/2unDk9liFn
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Santa Barbara, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 533
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794540078850050
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = DescubreNet
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/ERfHeVcZpA SocialTimes Feed
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Valencia
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 517
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588794750783852544
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = FranchiseWEBTEC
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #twitter How to Use Analytics to Show Social ROI for C-Level Execs http://t.co/Lyxbhn2cAk
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Santa Barbara, CA
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 136
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793269888364544
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = protoengineer
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = RT @medinskiy_vr: ??? ???????? ?????????? ??????? ?44 
+http://t.co/XYmTcZIpB3 
+??? ??????? ???????))
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 6
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588793488696860672
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = inalgo_de
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #deutschetelekom outperforming by 9.03% (last 365 days) at http://t.co/XdKV3RahiB, #stocks #prediction based on automated #news #analytics
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = Germany
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 88
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_ID:Long = 588792615509831680
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_name:String = AdverblogJobs
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_tweet:String = #jobs #adjobs Director of Data Insights _and_ Analytics at Zillner (Shawnee Mission, KS) http://t.co/3uWcycFkYn
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_location:String = unknown
+2015-04-16 22:48:16 [Thread-2] com.sas.coeci.esp.rdm.RDMEngine.invokeRdm()
+INFO: Adding RTDM Input-Variable tw_followers:Long = 320
