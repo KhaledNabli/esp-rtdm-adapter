@@ -7,5 +7,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SAS ESP 2.3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/TinyLog 1.0"/>
 	<classpathentry kind="lib" path="C:/Users/gerkna/workspace/JAVA.Libs/tinylog-1.0/log4j-facade.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache CLI 1.2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

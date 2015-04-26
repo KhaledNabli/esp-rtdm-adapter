@@ -5,7 +5,7 @@ public class RDMParameter<T> {
 	public enum Datatype {
 		String, Double, Long, Boolean, DateTime
 	}
-	
+
 	private String name;
 	private Datatype type;
 	private T value;
@@ -25,7 +25,6 @@ public class RDMParameter<T> {
 		this.type = type;
 		this.value = value;
 	}
-	
 
 	public String getName() {
 		return name;

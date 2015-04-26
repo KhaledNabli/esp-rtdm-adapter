@@ -18,9 +18,10 @@ import com.sas.esp.api.server.datavar;
 import com.sas.esp.api.server.ReferenceIMPL.dfESPevent;
 import com.sas.esp.api.server.ReferenceIMPL.dfESPeventblock;
 import com.sas.esp.api.server.ReferenceIMPL.dfESPschema;
+import com.sas.tap.client.SASDSResponse;
 
 public class DSAdapterCallbacks implements clientCallbacks {
-	
+
 	@Override
 	public void dfESPGDpublisherCB_func(clientGDStatus eventBlockStatus, long eventBlockID, Object ctx) {
 		// Garanteed Delivery is not needed;
@@ -40,47 +41,44 @@ public class DSAdapterCallbacks implements clientCallbacks {
 		case pubsubFail_SERVERDISCONNECT:
 			Logger.error("Server disconnect");
 		}
-		return;
+		System.exit(1);
 	}
 
 	@Override
 	public void dfESPsubscriberCB_func(dfESPeventblock eventBlock, dfESPschema schema, Object ctx) {
 		int eventBlockSize = eventBlock.getSize();
+		Logger.info("Received New Event-Block with {} Events", eventBlockSize);
 
-		
-		Logger.debug("Received New Event-Block with {} Events", eventBlockSize);
-		
 		for (int i = 0; i < eventBlockSize; i++) {
 			// Create RDM Request
 			RDMEngine rdmEngine = ((DSAdapterContext) ctx).getRtdmEngine();
 			try {
-				rdmEngine.invokeRdm(((DSAdapterContext) ctx).getRtdmEventName(), eventBlock.getEvent(i), schema, RDMEngine.getCorrelationId(), RDMEngine.getTimezone());
-			
+				Logger.info("Passing ESP Event {} to RTDM with {} Parameters", i, eventBlock.getEvent(i).getNumFields());
+				SASDSResponse response = rdmEngine.invokeRdm(((DSAdapterContext) ctx).getRtdmEventName(), eventBlock.getEvent(i), schema, RDMEngine.getCorrelationId(),
+						RDMEngine.getTimezone());
+				long responseTime = response.getEndTime().getMillisecond() - response.getStartTime().getMillisecond();
+				Logger.info("Received response {} from RTDM after {} milliseconds.", response.getName() , responseTime);
+
 			} catch (RuntimeException e) {
-				Logger.warn("Failed to pass event {} to RTDN because of {}",i, e.getCause().getLocalizedMessage());
-			
+				Logger.warn("Failed to pass event {} to RTDN because of {}", i, e.getCause().getLocalizedMessage());
+
 			} catch (Exception e) {
-				Logger.info("Failed to pass event {} to RTDN because of {}", i, e.getLocalizedMessage());
-				//Logger.error(e);
+				Logger.warn("Failed to pass event {} to RTDN because of {}", i, e.getLocalizedMessage());
+				// Logger.error(e);
 			}
-			
-			
-			
-			
 		}
-		
 	}
-	
+
 	@Deprecated
 	public List<RDMParameter<?>> generateRdmRequest(dfESPevent event, dfESPschema schema) throws dfESPException {
 		List<RDMParameter<?>> rdmParameter = new ArrayList<RDMParameter<?>>();
 		int rdmParameterCount = schema.getNumFields();
-		
-		for(int i = 0; i < rdmParameterCount; i++) {
+
+		for (int i = 0; i < rdmParameterCount; i++) {
 			String parameterName = schema.getNames().get(i);
 			datavar parameterData = event.copyByExtID(schema, i);
 			RDMParameter<?> rdmParam = null;
-			
+
 			switch (parameterData.getType()) {
 			case TIMESTAMP:
 			case DATETIME:
@@ -106,13 +104,11 @@ public class DSAdapterCallbacks implements clientCallbacks {
 				Logger.warn("Event Parameter {} Datatype {} is not supported. The value is not transmitted to RTDM.", parameterName, parameterData.getType());
 				break;
 			}
-			
-			
+
 			Logger.debug("Adding RTDM Parameter for {} with Type of {} ", parameterName, rdmParam.getType().name());
 			rdmParameter.add(rdmParam);
 		}
-		
-		
+
 		return rdmParameter;
 	}
 

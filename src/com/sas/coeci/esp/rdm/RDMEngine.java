@@ -32,7 +32,8 @@ public class RDMEngine {
 		props = _props;
 	}
 
-	public SASDSResponse invokeRdm(String eventName, dfESPevent event, dfESPschema schema, String correlationId, String timezone) throws SecurityException, IllegalArgumentException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
+	public SASDSResponse invokeRdm(String eventName, dfESPevent event, dfESPschema schema, String correlationId, String timezone) throws SecurityException,
+			IllegalArgumentException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
 
 		SASDSRequestFactory factory = SASDSRequestFactory.getInstance(getRdmUrl(), props);
 		SASDSRequest request = factory.create(eventName, correlationId, timezone);
@@ -59,26 +60,26 @@ public class RDMEngine {
 					// treat as Integer but cast to Long
 					parameterType = "Integer";
 					request.setLong(parameterName, ((Integer) parameterData.getValue()).longValue());
-					Logger.info("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, ((Integer) parameterData.getValue()).longValue());
+					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, ((Integer) parameterData.getValue()).longValue());
 					break;
 				case INT64:
 					// treat as Long.
 					parameterType = "Long";
 					request.setLong(parameterName, (Long) parameterData.getValue());
-					Logger.info("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (Long) parameterData.getValue());
+					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (Long) parameterData.getValue());
 					break;
 				case DOUBLE:
 				case MONEY:
 					// treat as double
 					parameterType = "Double";
 					request.setDouble(parameterName, (Double) parameterData.getValue());
-					Logger.info("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (Double) parameterData.getValue());
+					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (Double) parameterData.getValue());
 					break;
 				case UTF8STR:
 					// treat as string
 					parameterType = "String";
 					request.setString(parameterName, (String) parameterData.getValue());
-					Logger.info("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (String) parameterData.getValue());
+					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (String) parameterData.getValue());
 					break;
 				default:
 					Logger.warn("Event Parameter {} Datatype {} is not supported. The value is not transmitted to RTDM.", parameterName,
@@ -86,7 +87,6 @@ public class RDMEngine {
 					break;
 				} // Switch
 
-				
 			} catch (dfESPException | DatatypeConfigurationException | ClassCastException e) {
 				Logger.error("Error happening while creating Parameter {} ", parameterName);
 				Logger.error(e);
@@ -94,13 +94,13 @@ public class RDMEngine {
 		} // For Loop
 
 		return null;
-		//SASDSResponse response = request.execute();
-		//return response;
+		// SASDSResponse response = request.execute();
+		// return response;
 
 	}
 
-	public SASDSResponse invokeRdm(String eventName, List<RDMParameter<?>> parameterList, String corrleationId, String timezone) throws ClassNotFoundException, SecurityException,
-			IllegalArgumentException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException,
+	public SASDSResponse invokeRdm(String eventName, List<RDMParameter<?>> parameterList, String corrleationId, String timezone) throws ClassNotFoundException,
+			SecurityException, IllegalArgumentException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException,
 			DatatypeConfigurationException {
 
 		SASDSRequestFactory factory = SASDSRequestFactory.getInstance(getRdmUrl(), props);
