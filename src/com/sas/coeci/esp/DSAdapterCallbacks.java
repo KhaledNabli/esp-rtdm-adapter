@@ -59,12 +59,9 @@ public class DSAdapterCallbacks implements clientCallbacks {
 				long responseTime = response.getEndTime().getMillisecond() - response.getStartTime().getMillisecond();
 				Logger.info("Received response {} from RTDM after {} milliseconds.", response.getName() , responseTime);
 
-			} catch (RuntimeException e) {
-				Logger.warn("Failed to pass event {} to RTDN because of {}", i, e.getCause().getLocalizedMessage());
-
 			} catch (Exception e) {
-				Logger.warn("Failed to pass event {} to RTDN because of {}", i, e.getLocalizedMessage());
-				// Logger.error(e);
+				Logger.warn("Failed to pass event {} to RTDM. Please check RTDM Log for further details.", i);
+				Logger.trace(e);
 			}
 		}
 	}

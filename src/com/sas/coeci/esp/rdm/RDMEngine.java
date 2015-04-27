@@ -58,7 +58,7 @@ public class RDMEngine {
 					break;
 				case INT32:
 					// treat as Integer but cast to Long
-					parameterType = "Integer";
+					parameterType = "Long";
 					request.setLong(parameterName, ((Integer) parameterData.getValue()).longValue());
 					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, ((Integer) parameterData.getValue()).longValue());
 					break;
@@ -93,10 +93,8 @@ public class RDMEngine {
 			} // Try Catch
 		} // For Loop
 
-		return null;
-		// SASDSResponse response = request.execute();
-		// return response;
-
+		SASDSResponse response = request.execute();
+		return response;
 	}
 
 	public SASDSResponse invokeRdm(String eventName, List<RDMParameter<?>> parameterList, String corrleationId, String timezone) throws ClassNotFoundException,
@@ -134,7 +132,6 @@ public class RDMEngine {
 			}
 		}
 		SASDSResponse response = request.execute();
-
 		return response;
 	}
 

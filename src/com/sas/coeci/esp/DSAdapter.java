@@ -36,7 +36,7 @@ public class DSAdapter {
 
 	private static String getConfigurationFileName(String[] args) {
 		// if args.size() == 0 skip this
-		String fileName = "esp-rtdm-adapter.properties";
+		String fileName = "rtdm-adapter.properties";
 		if (args.length > 0) {
 			Logger.debug("ARGS: {}", Arrays.toString(args));
 			if (args[0].startsWith("-configFile=")) {
@@ -45,8 +45,8 @@ public class DSAdapter {
 				Logger.info("Loading configuration from File: {}", fileName);
 			} else {
 				// error print usage command;
-				Logger.warn("Command Line Argument {} is invalid. Argument will be ignored.", args[0]);
-				Logger.info("Usage:\n\trtdm-adapter -configFile=\"c:\\temp\\esp-rtdm-adapter.properties\"");
+				Logger.warn("Command line argument {} is invalid. Argument will be ignored.", args[0]);
+				Logger.info("Usage:\n\t./rtdm-adapter -configFile=my-rtdm-adapter.properties");
 			}
 		}
 		Logger.debug("Configuration file suggested: {}", fileName);
@@ -54,20 +54,21 @@ public class DSAdapter {
 	}
 
 	public static void main(String[] args) {
-		Logger.info("Starting RTDM Adapter");
 
 		String configFilename = getConfigurationFileName(args);
 		File propertiesFile = new File(configFilename);
 		Properties configProps = new Properties();
 
+		// Setup Logging
 		try {
 			Configurator.fromFile(propertiesFile).activate();
 		} catch (Exception e) {
 			Logger.trace(e);
 		}
 
+		Logger.info("Starting RTDM Adapter for ESP 2.3");
 		try {
-			configProps = readConfigurationFromFile(configFilename);
+			configProps = readConfigurationFromFile(getConfigurationFileName(args));
 			Logger.info("Configuration loaded successfully from file: {}", propertiesFile.getAbsoluteFile());
 		} catch (Exception e) {
 			Logger.error("Unable to load configuration from file: {}", propertiesFile.getAbsoluteFile());
@@ -78,21 +79,22 @@ public class DSAdapter {
 		String engineUrl = configProps.getProperty("esp.url");
 		String rtdmHost = configProps.getProperty("rtdm.host");
 		String rtdmEventName = configProps.getProperty("rtdm.event");
+		boolean hasMissingProperties = false;
 
 		// catch missing or invalid properties.
 		if (engineUrl == null || engineUrl.isEmpty()) {
 			Logger.error("Missing mandatory value for \"esp.url\" in configuration file.");
-			System.exit(1);
+			hasMissingProperties = true;
 		}
 
 		if (rtdmHost == null || rtdmHost.isEmpty()) {
 			Logger.error("Missing mandatory value for \"rtdm.host\" in configuration file.");
-			System.exit(1);
+			hasMissingProperties = true;
 		}
 
 		if (rtdmEventName == null || rtdmEventName.isEmpty()) {
 			Logger.error("Missing mandatory value for \"rtdm.event\" in configuration file.");
-			System.exit(1);
+			hasMissingProperties = true;
 		}
 
 		int rtdmPort = 0;
@@ -101,8 +103,20 @@ public class DSAdapter {
 		} catch (Exception e) {
 			Logger.error("Unable to get mandatory value for \"rtdm.port\" in configuration file because of {}.", e.getLocalizedMessage());
 			Logger.trace(e);
+			hasMissingProperties = true;
+		}
+		
+		if(rtdmPort < 1) {
+			Logger.error("Invalid value for \"rtdm.port\" in configuration file. rtdm.port = {}", rtdmPort);
+			hasMissingProperties = true;
+		}
+		
+		if(hasMissingProperties) {
+			// Stop process due to missing parameter in properties file.
+			Logger.error("Stopping RTDM Adapter due to errors in configuration file.");
 			System.exit(1);
 		}
+		
 
 		Level logLevel;
 		try {
@@ -133,24 +147,25 @@ public class DSAdapter {
 
 		try {
 			schemaVector = handler.queryMeta(schemaUrl);
-		} catch (UnknownHostException e) {
-			Logger.error(e.getLocalizedMessage());
+		} catch (Exception e) {
+			Logger.error("Unable to get the window schema from ESP Engine {}", engineUrl);
 			Logger.trace(e);
-			System.exit(1);
 		}
 
 		if (schemaVector == null || schemaVector.size() != 1) {
-			Logger.error("ESP Url is invalid. Please check the syntax and that ESP is running properly.");
+			Logger.error("ESP Url is invalid. Please check the syntax and make sure that ESP is running.");
 			System.exit(1);
 		}
 		
 		
 		// TODO check data type matching
 		String rtdmSchema = schemaVector.get(0).replace(":int64", ":Long");
-		rtdmSchema = rtdmSchema.replace(":int32", ":Integer");
+		rtdmSchema = rtdmSchema.replace(":int32", ":Long");
 		rtdmSchema = rtdmSchema.replace(":string", ":String");
 		rtdmSchema = rtdmSchema.replace(":double", ":Double");
-		// TODO add data type for date
+		rtdmSchema = rtdmSchema.replace(":money", ":Double");
+		rtdmSchema = rtdmSchema.replace(":date", ":Datetime");
+		rtdmSchema = rtdmSchema.replace(":timestamp", ":Datetime");
 		rtdmSchema = rtdmSchema.replace("*:", ":");
 		rtdmSchema = rtdmSchema.replace(":", " :\t");
 		rtdmSchema = rtdmSchema.replace(",", "\n");
