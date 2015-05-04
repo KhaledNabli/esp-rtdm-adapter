@@ -9,6 +9,7 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Properties;
+import java.util.concurrent.Executors;
 import java.util.logging.Level;
 
 import org.pmw.tinylog.Configurator;
@@ -21,8 +22,6 @@ import com.sas.esp.api.pubsub.dfESPclientHandler;
 /* These import files are needed for all subscribing code. */
 
 public class DSAdapter {
-
-	static private boolean nonBusyWait = true;
 
 	private static Properties readConfigurationFromFile(String filename) throws IOException {
 
@@ -42,17 +41,20 @@ public class DSAdapter {
 			if (args[0].startsWith("-configFile=")) {
 				// load configFile if exists and return properties
 				fileName = args[0].replace("-configFile=", "").trim();
-				Logger.info("Loading configuration from File: {}", fileName);
+				Logger.info("Loading configuration from \"{}\"", fileName);
 			} else {
 				// error print usage command;
 				Logger.warn("Command line argument {} is invalid. Argument will be ignored.", args[0]);
-				Logger.info("Usage:\n\t./rtdm-adapter -configFile=my-rtdm-adapter.properties");
+				Logger.info("Usage:\n\t./java -jar rtdm-adapter -configFile=my-rtdm-adapter.properties");
 			}
 		}
 		Logger.debug("Configuration file suggested: {}", fileName);
 		return fileName;
 	}
 
+
+	
+	
 	public static void main(String[] args) {
 
 		String configFilename = getConfigurationFileName(args);
@@ -66,10 +68,10 @@ public class DSAdapter {
 			Logger.trace(e);
 		}
 
-		Logger.info("Starting RTDM Adapter for ESP 2.3");
+		Logger.info("Starting RTDM Adapter for ESP 3.1");
 		try {
 			configProps = readConfigurationFromFile(getConfigurationFileName(args));
-			Logger.info("Configuration loaded successfully from file: {}", propertiesFile.getAbsoluteFile());
+			Logger.debug("Configuration loaded successfully from file: {}", propertiesFile.getAbsoluteFile());
 		} catch (Exception e) {
 			Logger.error("Unable to load configuration from file: {}", propertiesFile.getAbsoluteFile());
 			Logger.trace(e);
@@ -79,6 +81,7 @@ public class DSAdapter {
 		String engineUrl = configProps.getProperty("esp.url");
 		String rtdmHost = configProps.getProperty("rtdm.host");
 		String rtdmEventName = configProps.getProperty("rtdm.event");
+		String adapterThreadPool = configProps.getProperty("adapter.threadpool");
 		boolean hasMissingProperties = false;
 
 		// catch missing or invalid properties.
@@ -105,19 +108,25 @@ public class DSAdapter {
 			Logger.trace(e);
 			hasMissingProperties = true;
 		}
-		
-		if(rtdmPort < 1) {
+
+		if (rtdmPort < 1) {
 			Logger.error("Invalid value for \"rtdm.port\" in configuration file. rtdm.port = {}", rtdmPort);
 			hasMissingProperties = true;
 		}
-		
-		if(hasMissingProperties) {
+
+		if (hasMissingProperties) {
 			// Stop process due to missing parameter in properties file.
 			Logger.error("Stopping RTDM Adapter due to errors in configuration file.");
 			System.exit(1);
 		}
-		
 
+		int threadPoolSize = 5;
+		try {
+			threadPoolSize = Integer.parseInt(adapterThreadPool);
+		} catch (Exception e) {
+			Logger.warn("Unable to get optional value for \"adapter.threadpool\" in configuration file because of {}. Setting thread pool size = {}", e.getLocalizedMessage(), threadPoolSize);
+		}
+		
 		Level logLevel;
 		try {
 			logLevel = Level.parse(configProps.getProperty("esp.loglevel").toUpperCase());
@@ -129,26 +138,23 @@ public class DSAdapter {
 			logLevel = Level.OFF;
 		}
 
-		
-		
-		
-		
 		DSAdapterContext ctx = new DSAdapterContext();
-		ctx.setRtdmEngine(new RDMEngine(rtdmHost, rtdmPort, configProps));
+		ctx.setRtdmEngine(new RDMEngine(rtdmHost.trim(), rtdmPort, configProps));
 		ctx.setConfigProperties(configProps);
-		ctx.setRtdmEventName(rtdmEventName);
+		ctx.setRtdmEventName(rtdmEventName.trim());
+		ctx.setExecutor(Executors.newFixedThreadPool(threadPoolSize));
 
 		dfESPclientHandler handler = new dfESPclientHandler();
 		handler.init(logLevel);
 
 		String schemaUrl = engineUrl.substring(0, engineUrl.indexOf('?')) + "?get=schema";
-		Logger.info("Check ESP Url: {}", schemaUrl);
+		Logger.info("Checking ESP connection to {}", schemaUrl);
 		ArrayList<String> schemaVector = null;
 
 		try {
 			schemaVector = handler.queryMeta(schemaUrl);
 		} catch (Exception e) {
-			Logger.error("Unable to get the window schema from ESP Engine {}", engineUrl);
+			Logger.error("Unable to get the window schema from ESP engine {}", engineUrl);
 			Logger.trace(e);
 		}
 
@@ -156,25 +162,27 @@ public class DSAdapter {
 			Logger.error("ESP Url is invalid. Please check the syntax and make sure that ESP is running.");
 			System.exit(1);
 		}
-		
-		
+
+		// TODO check unsupported datatypes
+
 		// TODO check data type matching
-		String rtdmSchema = schemaVector.get(0).replace(":int64", ":Long");
-		rtdmSchema = rtdmSchema.replace(":int32", ":Long");
-		rtdmSchema = rtdmSchema.replace(":string", ":String");
+		String rtdmSchema = schemaVector.get(0).replace(":int64", ":Integer");
+		rtdmSchema = rtdmSchema.replace(":int32", ":Integer");
+		rtdmSchema = rtdmSchema.replace(":string", ":Character");
 		rtdmSchema = rtdmSchema.replace(":double", ":Double");
 		rtdmSchema = rtdmSchema.replace(":money", ":Double");
-		rtdmSchema = rtdmSchema.replace(":date", ":Datetime");
-		rtdmSchema = rtdmSchema.replace(":timestamp", ":Datetime");
+		rtdmSchema = rtdmSchema.replace(":date", ":Date");
+		rtdmSchema = rtdmSchema.replace(":timestamp", ":Date");
 		rtdmSchema = rtdmSchema.replace("*:", ":");
 		rtdmSchema = rtdmSchema.replace(":", " :\t");
 		rtdmSchema = rtdmSchema.replace(",", "\n");
-		Logger.info("Adapter exptects RTDM Event Definition to match: \n{}\n", rtdmSchema);
+		Logger.info("Adapter expects RTDM event definition to match: \n{}\n", rtdmSchema);
 
-		Logger.info("Start subscribing to ESP Window");
+		Logger.info("Start subscribing to ESP window");
 		dfESPclient client = handler.subscriberStart(engineUrl, new DSAdapterCallbacks(), ctx);
 
 		/* Now make the actual connection to the ESP application or server. */
+		// Start seperate thread for ESP Handling
 		try {
 			if (!handler.connect(client)) {
 				Logger.error("Start subscribing failed. Can not connect to ESP window");
@@ -184,18 +192,9 @@ public class DSAdapter {
 			Logger.error(e.getLocalizedMessage());
 			Logger.trace(e);
 		}
-
-		/* Create a mostly non-busy wait loop. */
-		while (nonBusyWait) {
-			try {
-				Logger.trace("Putting Thread to sleep for 1000ms");
-				Thread.sleep(1000); // sleep for 1000 ms
-			} catch (InterruptedException ie) {
-				Logger.trace("Continue Thread to sleep for 1000ms");
-			}
-		}
-
-		Logger.info("Stopping the ESP connection");
-		handler.stop(client, true);
+		
+		
+		
+		
 	}
 }

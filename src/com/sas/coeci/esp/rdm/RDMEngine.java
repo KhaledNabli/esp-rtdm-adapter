@@ -35,7 +35,7 @@ public class RDMEngine {
 	public SASDSResponse invokeRdm(String eventName, dfESPevent event, dfESPschema schema, String correlationId, String timezone) throws SecurityException,
 			IllegalArgumentException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
 
-		SASDSRequestFactory factory = SASDSRequestFactory.getInstance(getRdmUrl(), props);
+		SASDSRequestFactory factory = SASDSRequestFactory.getInstance(getRdmUrl(false), props);
 		SASDSRequest request = factory.create(eventName, correlationId, timezone);
 
 		int rdmParameterCount = schema.getNumFields();
@@ -101,7 +101,7 @@ public class RDMEngine {
 			SecurityException, IllegalArgumentException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException,
 			DatatypeConfigurationException {
 
-		SASDSRequestFactory factory = SASDSRequestFactory.getInstance(getRdmUrl(), props);
+		SASDSRequestFactory factory = SASDSRequestFactory.getInstance(getRdmUrl(false), props);
 		SASDSRequest request = factory.create(eventName, corrleationId, timezone);
 
 		for (RDMParameter<?> parameter : parameterList) {
@@ -135,9 +135,29 @@ public class RDMEngine {
 		return response;
 	}
 
-	private String getRdmUrl() {
-		return "http://" + host + ":" + port + "/RTDM/Custom";
+	/**
+	 * Get URL for JAVA API over HTTP
+	 * @param useHttps
+	 * @return
+	 */
+	private String getRdmUrl(boolean useHttps) {
+		return (useHttps ? "https://" : "http://") + host.trim() + ":" + port + "/RTDM/Custom";
 	}
+	
+	/**
+	 * Get URL for RESTful API
+	 * @param useHttps
+	 * @return
+	 */
+//	private String getRtdmRestfulInterface(boolean useHttps, String eventName) {
+//		return (useHttps ? "https://" : "http://") + host + ":" + port + "/rest/runtime/decisions/" + eventName.trim();
+//	}
+//	
+//	
+//	private String generateJsonRequest(List<RDMParameter<?>> parameterList, String corrleationId, String timezone) {
+//		
+//		return null;
+//	}
 
 	public static String getCorrelationId() {
 		return Long.toHexString(System.currentTimeMillis());
@@ -146,4 +166,10 @@ public class RDMEngine {
 	public static String getTimezone() {
 		return "GMT";
 	}
+	
+	@Override
+	public String toString() {
+		return host + ":" + port;
+	}
+	
 }

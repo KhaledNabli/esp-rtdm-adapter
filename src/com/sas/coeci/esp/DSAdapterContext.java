@@ -1,6 +1,7 @@
 package com.sas.coeci.esp;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutorService;
 
 import com.sas.coeci.esp.rdm.RDMEngine;
 
@@ -9,6 +10,7 @@ public class DSAdapterContext {
 	private RDMEngine rtdmEngine;
 	private String rtdmEventName;
 	private Properties configProperties;
+	private ExecutorService executor;
 
 	public RDMEngine getRtdmEngine() {
 		return rtdmEngine;
@@ -34,4 +36,12 @@ public class DSAdapterContext {
 		this.configProperties = configProperties;
 	}
 
+	public ExecutorService getExecutor() {
+		return executor;
+	}
+	
+	public void setExecutor(ExecutorService executor) {
+		this.executor = executor;
+	}
+	
 }

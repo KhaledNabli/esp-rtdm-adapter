@@ -1,4 +1,0 @@
-2015-04-17 11:04:16 [main] com.sas.coeci.esp.DSAdapter.main()
-INFO: Check ESP Url: dfESP://localhost:55555/project/contQuery/activeUsers?get=schema
-2015-04-17 11:04:17 [main] com.sas.coeci.esp.DSAdapter.main()
-ERROR: ESP Url is invalid. Please check the syntax and that ESP is running properly.
