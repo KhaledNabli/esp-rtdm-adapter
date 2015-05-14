@@ -163,8 +163,8 @@ public class DSAdapter {
 			System.exit(1);
 		}
 
+		
 		// TODO check unsupported datatypes
-
 		// TODO check data type matching
 		String rtdmSchema = schemaVector.get(0).replace(":int64", ":Integer");
 		rtdmSchema = rtdmSchema.replace(":int32", ":Integer");
@@ -192,9 +192,5 @@ public class DSAdapter {
 			Logger.error(e.getLocalizedMessage());
 			Logger.trace(e);
 		}
-		
-		
-		
-		
 	}
 }

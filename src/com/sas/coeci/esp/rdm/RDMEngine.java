@@ -45,6 +45,9 @@ public class RDMEngine {
 			String parameterType = "";
 			try {
 				datavar parameterData = event.copyByExtID(schema, i);
+				
+				if(parameterData.getValue() == null) 
+					continue;
 
 				switch (parameterData.getType()) {
 				case TIMESTAMP:

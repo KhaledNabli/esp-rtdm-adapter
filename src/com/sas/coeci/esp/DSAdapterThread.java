@@ -45,7 +45,7 @@ public class DSAdapterThread implements Runnable {
 
 				if (e.getCause() instanceof UnknownHostException) {
 					explaination = "Cannot connect to " + rdmEngine;
-				} else if (e.getCause().getMessage().startsWith("Status code received: 500 Internal Server Error")) {
+				} else if (e.getCause() != null && e.getCause().getMessage().startsWith("Status code received: 500 Internal Server Error")) {
 					explaination = "Please check the event name and variable types.";
 				}
 
