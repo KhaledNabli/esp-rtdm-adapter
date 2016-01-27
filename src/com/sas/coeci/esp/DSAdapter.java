@@ -78,6 +78,7 @@ public class DSAdapter {
 			System.exit(1);
 		}
 
+		
 		String engineUrl = configProps.getProperty("esp.url");
 		String rtdmHost = configProps.getProperty("rtdm.host");
 		String rtdmEventName = configProps.getProperty("rtdm.event");
@@ -143,7 +144,7 @@ public class DSAdapter {
 		ctx.setConfigProperties(configProps);
 		ctx.setRtdmEventName(rtdmEventName.trim());
 		ctx.setExecutor(Executors.newFixedThreadPool(threadPoolSize));
-
+		
 		dfESPclientHandler handler = new dfESPclientHandler();
 		handler.init(logLevel);
 
@@ -177,6 +178,9 @@ public class DSAdapter {
 		rtdmSchema = rtdmSchema.replace(":", " :\t");
 		rtdmSchema = rtdmSchema.replace(",", "\n");
 		Logger.info("Adapter expects RTDM event definition to match: \n{}\n", rtdmSchema);
+		
+		
+		
 
 		Logger.info("Start subscribing to ESP window");
 		dfESPclient client = handler.subscriberStart(engineUrl, new DSAdapterCallbacks(), ctx);

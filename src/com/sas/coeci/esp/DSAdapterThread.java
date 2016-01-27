@@ -5,6 +5,7 @@ import java.net.UnknownHostException;
 import org.pmw.tinylog.Logger;
 
 import com.sas.coeci.esp.rdm.RDMEngine;
+import com.sas.esp.api.server.event.EventOpcodes;
 import com.sas.esp.api.server.ReferenceIMPL.dfESPeventblock;
 import com.sas.esp.api.server.ReferenceIMPL.dfESPschema;
 import com.sas.tap.client.SASDSResponse;
@@ -14,11 +15,14 @@ public class DSAdapterThread implements Runnable {
 	private dfESPeventblock eventBlock;
 	private dfESPschema schema;
 	private DSAdapterContext ctx;
+	private boolean insertOnly;
 
 	public DSAdapterThread(dfESPeventblock eventBlock, dfESPschema schema, DSAdapterContext ctx) {
 		this.eventBlock = eventBlock;
 		this.schema = schema;
 		this.ctx = ctx;
+		String espInsertOnly = ctx.getConfigProperties().getProperty("esp.insertOnly");
+		insertOnly = (espInsertOnly != null && espInsertOnly.equalsIgnoreCase("true"));
 	}
 
 	@Override
@@ -33,13 +37,18 @@ public class DSAdapterThread implements Runnable {
 			try {
 				Logger.info("Passing ESP Event {} [Block {}] to RTDM", i, eventBlock.hashCode());
 
-				SASDSResponse response = rdmEngine.invokeRdm(ctx.getRtdmEventName(), eventBlock.getEvent(i), schema, RDMEngine.getCorrelationId(),
-						RDMEngine.getTimezone());
-				responseTime = response.getEndTime().getMillisecond() - response.getStartTime().getMillisecond();
-				elapsedTime = System.currentTimeMillis() - startTime; 
-				
-				Logger.debug("Received response {} from RTDM after {} milliseconds. cpu time: {} ms", response.getName(), responseTime, elapsedTime);
+				// check if event should be ignored:
+				if (insertOnly && eventBlock.getEvent(i).getOpcode() != EventOpcodes.eo_INSERT) {
+					Logger.debug("Event is not passed to RTDM because it is not an INSERT event.");
+				}
+				else
+				{
+					SASDSResponse response = rdmEngine.invokeRdm(ctx.getRtdmEventName(), eventBlock.getEvent(i), schema);
+					responseTime = response.getEndTime().getMillisecond() - response.getStartTime().getMillisecond();
+					elapsedTime = System.currentTimeMillis() - startTime;
 
+					Logger.debug("Received response {} from RTDM after {} milliseconds. cpu time: {} ms", response.getName(), responseTime, elapsedTime);
+				}
 			} catch (Exception e) {
 				String explaination = "Please check the RTDM log.";
 
