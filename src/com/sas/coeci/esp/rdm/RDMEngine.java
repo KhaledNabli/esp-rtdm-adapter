@@ -74,6 +74,7 @@ public class RDMEngine {
 
 				if (parameterData.getValue() == null) {
 					insertEmpty = true;
+					Logger.debug("Skipping RTDM Input-Variable {}:{} as value is null in esp. Empty value is passed.", parameterName, parameterType);
 				}
 
 				switch (parameterData.getType()) {
@@ -90,44 +91,53 @@ public class RDMEngine {
 						c.setTime((Date) parameterData.getValue());
 						XMLGregorianCalendar xmlGregCal = DatatypeFactory.newInstance().newXMLGregorianCalendar(c);
 						request.setXMLGregorianCalendar(parameterName, xmlGregCal);
+						Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, xmlGregCal.toString());
 					}
 					break;
 				case INT32:
 					// treat as Integer but cast to Long
 					parameterType = "Integer";
-					if (insertEmpty)
+					if (insertEmpty) {
 						request.setLong(parameterName, new Long(0L));
-					else
-					request.setLong(parameterName, ((Integer) parameterData.getValue()).longValue());
-					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, ((Integer) parameterData.getValue()).longValue());
+					}
+					else {
+						request.setLong(parameterName, ((Integer) parameterData.getValue()).longValue());
+						Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, ((Integer) parameterData.getValue()).longValue());
+					}
 					break;
 				case INT64:
 					// treat as Long.
 					parameterType = "Integer 64bit";
-					if (insertEmpty)
+					if (insertEmpty){
 						request.setLong(parameterName, new Long(0L));
-					else
+					}
+					else {
 						request.setLong(parameterName, (Long) parameterData.getValue());
-					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (Long) parameterData.getValue());
+						Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (Long) parameterData.getValue()); 
+					}
 					break;
 				case DOUBLE:
 				case MONEY:
 					// treat as double
 					parameterType = "Double";
-					if (insertEmpty)
+					if (insertEmpty) {
 						request.setDouble(parameterName, new Double(0));
-					else
+					}
+					else {
 						request.setDouble(parameterName, (Double) parameterData.getValue());
-					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (Double) parameterData.getValue());
+						Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (Double) parameterData.getValue());
+					}
 					break;
 				case UTF8STR:
 					// treat as string
 					parameterType = "String";
-					if (insertEmpty)
+					if (insertEmpty) {
 						request.setString(parameterName, "");
-					else
+					}
+					else {
 						request.setString(parameterName, (String) parameterData.getValue());
-					Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (String) parameterData.getValue());
+						Logger.debug("Adding RTDM Input-Variable {}:{} = {}", parameterName, parameterType, (String) parameterData.getValue());
+					}
 					break;
 				default:
 					Logger.warn("Event Parameter {} Datatype {} is not supported. The value is not transmitted to RTDM.", parameterName,
